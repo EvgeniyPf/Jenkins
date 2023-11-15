@@ -1,4 +1,5 @@
 
+// dateBefore - Not convert old jobs (number of days with builds)
 //Parameters
 def ACTION = 'DryRun' //WORK
 def JOBFULLNAME = "parentDir/project" // or empty: "" to convert all jobs (pipeline)
