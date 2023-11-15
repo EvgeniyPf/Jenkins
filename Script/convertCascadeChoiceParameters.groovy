@@ -1,7 +1,7 @@
 
 //Parameters
 def ACTION = 'DryRun' //WORK
-def JOBFULLNAME = "parentDir/project"
+def JOBFULLNAME = "parentDir/project" // or empty: "" to convert all jobs (pipeline)
 
 
 import org.jenkinsci.plugins.workflow.job.WorkflowJob
